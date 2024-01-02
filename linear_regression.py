@@ -52,6 +52,10 @@ predicted= linear.predict(x_test)
 for x in range(len(predicted)):
     print(predicted[x], x_test[x], y_test[x])
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 9ffb483fce3dc7052021560f169f8eede4bcc11c
 # Drawing and plotting model
 plot = "failures"
 plt.scatter(data[plot], data["G3"])
